@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:layout_height="@dimen/listview_all">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_all"
+        android:id="@+id/imagecard"
+        android:scaleType="fitXY"
+        android:src="@drawable/cardview1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbk1"
+        android:textSize="2sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbk2"
+        android:textSize="2sp"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbk3"
+        android:textSize="2sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbk4"
+        android:textSize="2sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="@dimen/listview_crad_w"
+        android:layout_height="@dimen/listview_crad_h"
+        android:src="@drawable/visa"
+        android:layout_marginTop="@dimen/listview_crad_margin_t"
+        android:layout_marginRight="@dimen/listview_crad_margin_r"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bankCard"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberCard"
+        android:text="0000   0000   0000   0000"
+        android:gravity="center"
+        android:textSize="@dimen/listview_crad_text_card"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE\nEXP "
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:layout_marginTop="@dimen/listview_crad_mar_top"
+        android:layout_toLeftOf="@+id/numberDateCard"
+        android:textSize="@dimen/listview_crad_text_s2"
+        android:id="@+id/font1"
+        android:layout_below="@+id/numberCard"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberDateCard"
+        android:text="12/20"
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:paddingRight="@dimen/listview_crad_mar_left"
+        android:layout_marginTop="@dimen/listview_crad_mar_top2"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/listview_crad_text_c"
+        android:layout_below="@+id/numberCard"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberCCVCard2"
+        android:text="CVV/CVC : "
+        android:layout_marginLeft="@dimen/listview_crad_mar_left"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:layout_marginTop="@dimen/listview_crad_mar_top"
+        android:layout_below="@+id/numberCard"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberCCVCard"
+        android:text="2015"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:layout_toRightOf="@+id/numberCCVCard2"
+        android:textSize="@dimen/listview_crad_text_c"
+        android:layout_marginTop="@dimen/listview_crad_mar_top"
+        android:layout_below="@+id/numberCard"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameCard"
+        android:text="Jon Sample"
+        android:layout_marginLeft="@dimen/listview_crad_mar_left"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:textSize="@dimen/listview_crad_text_n"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/listview_crad_mar_bom"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+</RelativeLayout>

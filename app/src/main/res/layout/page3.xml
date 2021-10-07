@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tl">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/settingsdark"
+            android:padding="10dp"
+            android:id="@+id/setting"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_selector"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Site &amp; App"
+            android:textSize="20dp"
+            android:id="@+id/ttop"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl"
+        android:dividerHeight="0dp"
+        android:divider="@color/colortranslat3"
+        android:layout_above="@+id/clude_3"
+        android:id="@+id/lv" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        android:layout_marginBottom="64dp"
+        fab:fab_colorNormal="@color/colorstatus2"
+        fab:fab_colorPressed="@color/colorbtnPressed2"
+        fab:fab_colorRipple="@color/ripple2"
+        fab:fab_shadow="true"
+        fab:fab_type="normal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/header_shadow"
+        android:layout_below="@id/tl"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/header_shadow"
+        android:layout_below="@id/protop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/noweb"
+        android:id="@+id/ImNoCard"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Site or App account Yet"
+        android:textSize="25dp"
+        android:id="@+id/textNoCard"
+        android:layout_below="@+id/ImNoCard"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/gray"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_above="@+id/clude_3"/>
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/clude_3"
+        layout="@layout/bottom_org"  />
+
+</RelativeLayout>

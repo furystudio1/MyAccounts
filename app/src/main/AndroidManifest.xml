@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fury.myaccounts">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Password_1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VP">
+            <intent-filter>
+                <action android:name="android.intent.action.VP" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewPassword">
+            <intent-filter>
+                <action android:name="android.intent.action.NEWPASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreditCard">
+            <intent-filter>
+                <action android:name="android.intent.action.CREDITCARD" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateCard">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATECARD" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateEmail">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATEEMAIL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Email">
+            <intent-filter>
+                <action android:name="android.intent.action.EMAIL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateWebApp">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATEEMAIL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebApp">
+            <intent-filter>
+                <action android:name="android.intent.action.EMAIL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Buy_Professional">
+            <intent-filter>
+                <action android:name="android.intent.action.BUY_PROFESSIONAL" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.SETTINGS" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backcreatecard"
+        android:scaleType="fitXY"
+        android:id="@+id/back_create_card"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/close2"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/close_create_card"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bt_password_bg3"/>
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colortranslat"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Username"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/text_number_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_number_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_number_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="8.0dip"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Password"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ET_number_card_create_card"
+        android:id="@+id/text_name_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_name_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_name_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:padding="8.0dip"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Name App"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ET_name_card_create_card"
+        android:id="@+id/text_date_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_date_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_date_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="8.0dip"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ET_date_card_create_card"
+        android:id="@+id/text_cvv_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_cvv_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_cvv_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:padding="8.0dip"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Mobile phone"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ET_cvv_card_create_card"
+        android:id="@+id/text_email_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_email_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_email_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="phone"
+        android:padding="8.0dip"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Detail"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ET_email_card_create_card"
+        android:id="@+id/text_code_card_create_card"/>
+
+    <EditText
+        android:id="@+id/ET_code_card_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:layout_below="@+id/text_code_card_create_card"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_bg3"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="8.0dip"
+        android:maxLines="4"
+        android:maxLength="80"
+        android:textColor="@color/colorText1"
+        android:textDirection="ltr"
+        android:textSize="24.0sp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fabSaveCreateCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/check"
+        fab:fab_colorNormal="@color/colorPrimary"
+        fab:fab_colorPressed="@color/colorAccent3"
+        fab:fab_colorRipple="@color/colorAccent3"
+        fab:fab_shadow="true"
+        fab:fab_type="normal" />
+
+</RelativeLayout>

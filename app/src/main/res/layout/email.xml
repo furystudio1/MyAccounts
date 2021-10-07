@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:layout_height="@dimen/listview_all2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_all2"
+        android:id="@+id/imagecard"
+        android:scaleType="fitXY"
+        android:src="@drawable/emailcard3"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/listview_crad_margin_t"
+        android:layout_marginLeft="@dimen/listview_crad_margin_r"
+        android:src="@drawable/gmx"
+        android:id="@+id/emailCard"
+        android:padding="5dp"
+        android:background="@drawable/bt_password_bg4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk2"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk3"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk4"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk5"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk6"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk7"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"
+            android:id="@+id/textbk8"
+            android:text="Email"
+            android:gravity="center_horizontal|bottom"
+            android:textSize="@dimen/listview_crad_text_s"
+            android:textColor="@color/colorPrimary2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:id="@+id/Email"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Furystudio1@gmail.com"
+            android:gravity="center_horizontal|top"
+            android:textSize="@dimen/listview_crad_text_card"
+            android:textColor="@color/colorPrimary2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:id="@+id/textbk9"
+            android:text="Password"
+            android:gravity="center_horizontal|bottom"
+            android:textSize="@dimen/listview_crad_text_s"
+            android:textColor="@color/colorPrimary2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="217"
+            android:gravity="center_horizontal|top"
+            android:textSize="@dimen/listview_crad_text_card"
+            android:id="@+id/passEmail"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/colorPrimary2"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

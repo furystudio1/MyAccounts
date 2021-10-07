@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+    <dimen name="listview_all">200dp</dimen>
+    <dimen name="listview_all2">225dp</dimen>
+    <dimen name="listview_crad_w">70dp</dimen>
+    <dimen name="listview_crad_h">40dp</dimen>
+    <dimen name="listview_crad_margin_t">15dp</dimen>
+    <dimen name="listview_crad_margin_r">20dp</dimen>
+    <dimen name="listview_crad_text_card">25sp</dimen>
+    <dimen name="listview_crad_text_n">18sp</dimen>
+    <dimen name="listview_crad_text_s">12sp</dimen>
+    <dimen name="listview_crad_text_c">14sp</dimen>
+    <dimen name="listview_crad_text_s2">10sp</dimen>
+    <dimen name="listview_crad_mar_left">40dp</dimen>
+    <dimen name="listview_crad_mar_top">8dp</dimen>
+    <dimen name="listview_crad_mar_top2">10dp</dimen>
+    <dimen name="listview_crad_mar_bom">18dp</dimen>
+
+</resources>

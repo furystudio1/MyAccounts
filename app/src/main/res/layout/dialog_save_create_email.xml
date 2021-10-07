@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:background="@color/colortranslat2">
+
+
+    <LinearLayout
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_dialog"
+        android:id="@+id/dialogset"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dialog_universal_info_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10.0dip"
+                    android:paddingTop="10dp"
+                    android:gravity="center"
+                    android:text="Company"
+                    android:textColor="@color/colortranslat"
+                    android:textSize="24.0sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/numberpicker_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <in.goodiebag.carouselpicker.CarouselPicker
+                        android:id="@+id/carousel"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CCC"
+                        app:items_visible="three" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fabSaveBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@drawable/check2"
+        fab:fab_colorNormal="@color/colorstatus1"
+        fab:fab_colorPressed="@color/colorbtnPressed1"
+        fab:fab_colorRipple="@color/ripple1"
+        fab:fab_shadow="false"
+        fab:fab_type="normal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:layout_alignParentTop="true"
+        android:text="Name"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/b1"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:id="@+id/nameDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b1"
+        android:text="Ehsan khatiban"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:layout_marginTop="10dp"
+        android:text="Card Number"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:id="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/nameDetail"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:text="0000 0000 0000 0000"
+        android:id="@+id/numberDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b2"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:layout_marginTop="10dp"
+        android:text="Exp Date"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:id="@+id/b3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/numberDetail"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:text="12/20"
+        android:id="@+id/dateDetail"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b3"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:layout_marginTop="10dp"
+        android:text="CVV/CVC"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:id="@+id/b4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dateDetail"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:text="123"
+        android:id="@+id/cvvDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b4"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:layout_marginTop="10dp"
+        android:id="@+id/b5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cvvDetail"
+        android:text="Password"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:text="1234"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b5"
+        android:id="@+id/passwordDetail"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/b6"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/passwordDetail"
+        android:background="@drawable/top"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/translate2"
+        android:text="FuryStudio1@Gmail.com"
+        android:id="@+id/emailDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b6"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/b7"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/emailDetail"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fabClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/close"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/colorPrimary2"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_shadow="false"
+            fab:fab_type="normal" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fabEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/pencil"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/colorPrimary2"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_shadow="false"
+            fab:fab_type="normal" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fabCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/copy"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/colorPrimary2"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_shadow="false"
+            fab:fab_type="normal" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fabDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/delete"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/colorPrimary2"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_shadow="false"
+            fab:fab_type="normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

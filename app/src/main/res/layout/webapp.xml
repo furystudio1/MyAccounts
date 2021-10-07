@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:layout_height="@dimen/listview_all">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_all"
+        android:id="@+id/imagecard"
+        android:scaleType="fitXY"
+        android:src="@drawable/adwords_back"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_gr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="left"
+        android:paddingLeft="2dp"
+        android:text="https://www.fitshoo.ir"
+        android:id="@+id/website"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/listview_crad_margin_t"
+        android:src="@drawable/adwords_icon"
+        android:id="@+id/icon"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/listview_crad_margin_r"
+        android:id="@+id/textapp"
+        android:text="FitShow"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="@dimen/listview_crad_text_card"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk2"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk3"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk4"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk5"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk6"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="Email"
+        android:id="@+id/textbk7"
+        android:visibility="gone"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="@dimen/listview_crad_text_s"
+        android:textColor="@color/colorPrimary2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/icon"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/User"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Furystudio1@gmail.com"
+                android:gravity="center"
+                android:background="@drawable/et_password_bg4"
+                android:textSize="22sp"
+                android:textColor="@color/colorweb1"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="217"
+            android:gravity="center"
+            android:background="@drawable/et_password_bg4"
+            android:textSize="22sp"
+            android:id="@+id/Password"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorweb1"/>
+    </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#F8F0BD</color>
+    <color name="colorPrimary2">#fafafa</color>
+    <color name="colorPrimary3">#d6d3d3</color>
+    <color name="colorAccent3">#f1f1f1</color>
+    <color name="gray">#b0b1ac</color>
+    <color name="gray2">#989994</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colortranslat">#64030303</color>
+    <color name="colortranslat2">#14000000</color>
+    <color name="colortranslat3">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="colorbtn1">#96c96225</color>
+    <color name="colorbtn2">#96242642</color>
+    <color name="colorbtn3">#323569</color>
+    <color name="colorbtn4">#DE7F1B</color>
+    <color name="color1">#F2CD1F</color>
+    <color name="color2">#5A509B</color>
+    <color name="colorAccent1">#EFB818</color>
+    <color name="colorAccent2">#a17ec1</color>
+    <color name="colorText1">#C96225</color>
+    <color name="colorText2">#242642</color>
+    <color name="colorstatus1">#F95901</color>
+    <color name="colorstatus2">#544d9a</color>
+    <color name="md_white_1000">#ffffffff</color>
+    <color name="start">#746bd6</color>
+    <color name="start2">#3b3958</color>
+
+
+    <color name="colorbtnPressed1">#F97111</color>
+    <color name="colorbtnPressed2">#4a4487</color>
+    <color name="ripple1">#F9BF4B</color>
+    <color name="ripple2">#8c7cef</color>
+
+
+    <color name="colorweb1">#D24E43</color>
+    <color name="colorweb2">#34864C</color>
+    <color name="colorweb3">#212844</color>
+    <color name="colorweb4">#3E1669</color>
+    <color name="colorweb5">#9B1A69</color>
+
+
+    <color name="colorapp1">#CF377B</color>
+    <color name="colorapp2">#36A9E1</color>
+    <color name="colorapp3">#412682</color>
+    <color name="colorapp4">#5FBC37</color>
+    <color name="colorapp5">#E76826</color>
+    <color name="colorapp6">#7A5298</color>
+    <color name="colorapp7">#DD5245</color>
+    <color name="colorapp8">#E24C1F</color>
+    <color name="colorapp9">#33A6DB</color>
+    <color name="colorapp10">#83BB27</color>
+    <color name="colorapp11">#31B46C</color>
+    <color name="colorapp12">#3A5CA0</color>
+    <color name="colorapp13">#4CA2D8</color>
+    <color name="colorapp14">#FDFB01</color>
+    <color name="colorapp15">#467CBC</color>
+    <color name="colorapp16">#155E92</color>
+    <color name="colorapp17">#DC4C40</color>
+    <color name="colorapp18">#47958A</color>
+    <color name="colorapp19">#F0BA15</color>
+    <color name="colorapp20">#DF3021</color>
+    <color name="colorapp21">#E6602A</color>
+    <color name="colorapp22">#FD9701</color>
+    <color name="colorapp23">#7A9A2B</color>
+    <color name="colorapp24">#E76E1C</color>
+    <color name="colorapp25">#37465D</color>
+    <color name="colorapp26">#323131</color>
+
+</resources>

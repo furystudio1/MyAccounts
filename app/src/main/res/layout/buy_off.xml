@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toptext"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/image_back"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buyoffdark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professional\nspecial offer"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="28sp"
+            android:id="@+id/text_buy_top"
+            android:shadowColor="@color/colorapp26"
+            android:textColor="@color/colorPrimary2"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/remove_ad_dark"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toptext"
+        android:id="@+id/pic_remove_ads"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Ads (Free)"
+        android:textSize="20sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorstatus2"
+        android:layout_below="@+id/toptext"
+        android:id="@+id/text_buy_ad"
+        android:layout_toRightOf="@+id/pic_remove_ads"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/unlockwebemaildark"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pic_remove_ads"
+        android:id="@+id/pic_open_web_app"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Lock"
+        android:textSize="20sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/text_buy_lock"
+        android:textColor="@color/colorstatus2"
+        android:layout_below="@+id/pic_remove_ads"
+        android:layout_toRightOf="@+id/pic_open_web_app"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/unfingedark"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pic_open_web_app"
+        android:id="@+id/pic_unfinger"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint"
+        android:textSize="20sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/text_buy_finger"
+        android:textColor="@color/colorstatus2"
+        android:layout_below="@+id/pic_open_web_app"
+        android:layout_toRightOf="@+id/pic_unfinger"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/unlockdark"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pic_unfinger"
+        android:id="@+id/pic_security"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase Security"
+        android:textSize="20sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/text_buy_sec"
+        android:textColor="@color/colorstatus2"
+        android:layout_below="@+id/pic_unfinger"
+        android:layout_toRightOf="@+id/pic_security"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72.0dip"
+        android:layout_marginStart="72.0dip"
+        android:padding="8.0dip"
+        android:gravity="center"
+        android:background="@drawable/button2"
+        android:textSize="24.0sp"
+        android:layout_marginTop="15dp"
+        android:text="BUY"
+        android:textColor="@color/textcolor2"
+        android:layout_below="@+id/pic_security"
+        android:id="@+id/buy"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buy"
+        android:text="30% OFF!"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
